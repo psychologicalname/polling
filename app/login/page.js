@@ -109,20 +109,20 @@ export default function Login() {
               <button
                 type="button"
                 onClick={handleGoogleLogin}
-                className="bg-red-500 hover:bg-red-700 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3"
+                className="bg-red-500 hover:bg-red-700 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3 text-white"
                 >
               <FaGoogle />
               </button>
               <button 
                 type="button"
                 onClick={handleFacebookLogin}
-                className="bg-blue-700 hover:bg-blue-900 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3">
+                className="bg-blue-700 hover:bg-blue-900 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3 text-white">
               <FaFacebook />
               </button>
               <button 
                 type="button"
                 onClick={handleTwitterLogin}
-                className="bg-sky-500 hover:bg-sky-700 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3">
+                className="bg-sky-500 hover:bg-sky-700 py-2.5 px-2.5 rounded-full focus:outline-none focus:shadow-outline mb-3 text-white">
               <FaTwitter />
               </button>
             </div>

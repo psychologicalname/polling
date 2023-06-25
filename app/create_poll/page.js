@@ -32,8 +32,8 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full py-14 bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59]">
-      <div className="bg-white rounded-lg shadow-lg p-8 w-96">
+    <div className="flex flex-col items-center justify-center h-full py-14 bg-transparent dark:bg-gradient-to-r from-[#12c2e9] via-[#c471ed] to-[#f64f59]">
+      <div className="bg-gray-100 dark:bg-white rounded-lg shadow-lg p-8 w-96">
         <h2 className="text-slate-800 text-4xl font-semibold mb-6">Create Poll</h2>
 
         <form>
